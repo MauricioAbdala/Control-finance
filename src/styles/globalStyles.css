@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --color-brand-1: #6741d9;
+  --color-brand-2: #4c3299;
+  --color-brand-3: #f0ecfb;
+
+  --color-grey-1: #212529;
+  --color-grey-2: #495057;
+  --color-grey-3: #adb5bd;
+  --color-grey-4: #e9ecef;
+  --color-grey-5: #f1f3f5;
+  --color-grey-1-opacity-5: rgba(0, 0, 0, 0.5);
+  --fixed-white: #ffffff;
+  --color-mode: #ffffff;
+
+  --font-size-1: 1.25rem;
+  --font-size-2: 1rem;
+  --font-size-3: 0.875rem;
+  --font-size-4: 0.75rem;
+
+  --font-weight-1: 600;
+  --font-weight-2: 500;
+  --font-weight-3: 400;
+
+  --font-line-height-1: 150%;
+
+  --radius-1: 0.5rem;
+  --radius-2: 0.25rem;
+
+  --animation-duration: 0.2s;
+  --animation-type: ease;
+
+  --font-family-1: "Inter", sans-serif;
+  --font-family-2: "Nunito", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 8.125rem;
+  background-color: var(--color-grey-5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logoA {
+  margin-left: 5px;
+  font-family: "Inter", sans-serif;
+  color: var(--color-brand-1);
+  font-size: var(--font-size-1);
+  font-weight: var(--font-weight-1);
+  line-height: var(--font-line-height-1);
+}
+
+.logoB {
+  font-family: "Inter", sans-serif;
+  color: var(--color-grey-1);
+  font-size: var(--font-size-1);
+  font-weight: var(--font-weight-1);
+  line-height: var(--font-line-height-1);
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  text-indent: 5px;
+  margin-left: 0px;
+  font-family: "Inter", sans-serif;
+  color: var(--color-grey-1);
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-2);
+  line-height: var(--font-line-height-1);
+}
+
+#app {
+ 
+  margin: 10rem 0rem 0rem;
+  padding: 0rem 1rem;
+  height: 100%;
+}
